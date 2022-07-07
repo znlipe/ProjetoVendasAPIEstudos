@@ -14,8 +14,8 @@ import java.io.Serializable;
 @AllArgsConstructor
 @NoArgsConstructor
 @Entity //Mapeia para o banco de dados >> cria uma tabela
-@Table(name = "client")
-public class Client implements Serializable {
+@Table(name = "cliente")
+public class Cliente implements Serializable {
 
     private static final long serialVersionUID = 1L;
 
